@@ -47,7 +47,7 @@ const Home = () => {
                 bottom: 250,
               }}
             >
-              B3N04
+              DEVELOPPEUR WEB
             </motion.h1>
             <h2>
               <DynamicText />

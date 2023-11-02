@@ -70,7 +70,7 @@ const Contact = () => {
           </div>
           <SocialNetwork />
           <div className="credits">
-            <p>B3NO4 - 2023</p>
+            <p>BD - 2023</p>
           </div>
         </div>
         <Buttons left="/projet-4" />
