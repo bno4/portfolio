@@ -2,7 +2,6 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 
 const Buttons = (props) => {
-  console.log(props);
   return (
     <div className="scroll-bottom">
       {props.left && (

@@ -1,11 +1,22 @@
 import React from "react";
+import Mouse from "../components/Mouse";
+import Navigation from "../components/Navigation";
+import Logo from "../components/Logo";
+import Buttons from "../components/Buttons";
+import Project from "../components/Project";
 
-const Project4 = () => {
+const Project3 = () => {
   return (
-    <div>
-      <h1>Project 4</h1>
-    </div>
+    <main>
+      <Mouse />
+      <div className="project">
+        <Navigation />
+        <Logo />
+        <Project projectNumber={3} />
+        <Buttons left={"/projet-3"} />
+        <Buttons right={"/contact"} />
+      </div>
+    </main>
   );
 };
-
-export default Project4;
+export default Project3;
