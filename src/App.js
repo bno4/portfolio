@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { HashRouter, Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
 import Project1 from "./pages/Project1";
 import Project2 from "./pages/Project2";
@@ -11,7 +11,7 @@ import { AnimatePresence } from "framer-motion";
 
 const App = () => {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <AnimatePresence>
         <Routes>
           <Route path="/" element={<Home />} />
@@ -23,7 +23,7 @@ const App = () => {
           <Route path="*" element={<NotFound />} />
         </Routes>
       </AnimatePresence>
-    </BrowserRouter>
+    </HashRouter>
   );
 };
 
