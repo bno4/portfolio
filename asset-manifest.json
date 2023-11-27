@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.378838c9.css",
+    "main.js": "/static/js/main.cb844d8f.js",
+    "static/media/Rubik-VariableFont_wght.ttf": "/static/media/Rubik-VariableFont_wght.3a4acc0356c6ea73f2c3.ttf",
+    "index.html": "/index.html",
+    "main.378838c9.css.map": "/static/css/main.378838c9.css.map",
+    "main.cb844d8f.js.map": "/static/js/main.cb844d8f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.378838c9.css",
+    "static/js/main.cb844d8f.js"
+  ]
+}
